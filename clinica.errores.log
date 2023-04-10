@@ -858,3 +858,362 @@ delete from pacientes where id=? [23503-214]]
 [2023-04-1001:19:51] [ INFO ] [OdontologoService:44] Odontologo Modificado
 [2023-04-1001:19:54] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
 [2023-04-1001:19:54] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1001:49:01] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1001:49:02] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1001:49:17] [ ERROR] [GlobalExceptionHandler:14] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (CAST(306 AS BIGINT))"; SQL statement:
+delete from pacientes where id=? [23503-214]]
+[2023-04-1001:49:24] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1001:49:24] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1001:49:30] [ ERROR] [GlobalExceptionHandler:14] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (CAST(306 AS BIGINT))"; SQL statement:
+delete from pacientes where id=? [23503-214]]
+[2023-04-1001:49:33] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1001:49:33] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1001:55:47] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1001:55:48] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1001:55:55] [ ERROR] [GlobalExceptionHandler:14] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (CAST(306 AS BIGINT))"; SQL statement:
+delete from pacientes where id=? [23503-214]]
+[2023-04-1001:56:58] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 452
+[2023-04-1001:57:00] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 304
+[2023-04-1001:57:01] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 402
+[2023-04-1001:57:06] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1001:57:06] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1001:57:38] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1001:57:38] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1001:58:13] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-1001:58:13] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-1001:58:16] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1001:58:16] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:00:54] [ INFO ] [PacienteService:38] Modificando paciente id: 502
+[2023-04-1002:00:54] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1002:01:16] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:01:16] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:01:25] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 502
+[2023-04-1002:01:29] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:01:29] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:01:32] [ ERROR] [GlobalExceptionHandler:14] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (CAST(306 AS BIGINT))"; SQL statement:
+delete from pacientes where id=? [23503-214]]
+[2023-04-1002:01:34] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:01:34] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:01:37] [ ERROR] [GlobalExceptionHandler:14] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (CAST(306 AS BIGINT))"; SQL statement:
+delete from pacientes where id=? [23503-214]]
+[2023-04-1002:01:39] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:01:39] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:03:43] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1002:03:43] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1002:03:52] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1002:03:52] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1002:04:02] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:04:02] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:04:05] [ ERROR] [GlobalExceptionHandler:14] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (CAST(306 AS BIGINT))"; SQL statement:
+delete from pacientes where id=? [23503-214]]
+[2023-04-1002:04:13] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 303
+[2023-04-1002:04:14] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 305
+[2023-04-1002:04:17] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:04:17] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:04:39] [ INFO ] [PacienteService:38] Modificando paciente id: 306
+[2023-04-1002:04:39] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1002:05:13] [ INFO ] [PacienteService:38] Modificando paciente id: 306
+[2023-04-1002:05:13] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1002:05:14] [ INFO ] [PacienteService:38] Modificando paciente id: 306
+[2023-04-1002:05:14] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1002:05:15] [ INFO ] [PacienteService:38] Modificando paciente id: 306
+[2023-04-1002:05:15] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1002:05:16] [ INFO ] [PacienteService:38] Modificando paciente id: 306
+[2023-04-1002:05:16] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1002:05:18] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:05:18] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:05:22] [ ERROR] [GlobalExceptionHandler:14] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (CAST(306 AS BIGINT))"; SQL statement:
+delete from pacientes where id=? [23503-214]]
+[2023-04-1002:05:24] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:05:24] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:07:50] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:07:50] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:07:52] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 306
+[2023-04-1002:07:59] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1002:07:59] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1002:08:26] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-1002:08:26] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-1002:09:06] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-1002:09:06] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-1002:09:10] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:09:10] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:09:57] [ INFO ] [PacienteService:38] Modificando paciente id: 552
+[2023-04-1002:09:57] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1002:10:05] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:10:05] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:25:25] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:25:25] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:25:27] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:25:27] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:25:28] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 552
+[2023-04-1002:25:29] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:25:29] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:25:30] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:25:30] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:26:00] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-1002:31:44] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:31:44] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:32:05] [ INFO ] [PacienteService:50] Buscando paciente id: 553
+[2023-04-1002:32:05] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1002:32:39] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:32:40] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:32:41] [ INFO ] [PacienteService:50] Buscando paciente id: 553
+[2023-04-1002:32:41] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1002:33:06] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-1002:33:51] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-1002:34:07] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:34:07] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:34:21] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:34:21] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:35:00] [ INFO ] [PacienteService:50] Buscando paciente id: 553
+[2023-04-1002:35:00] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1002:35:49] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:35:49] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:36:25] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:36:25] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:36:27] [ INFO ] [PacienteService:50] Buscando paciente id: 553
+[2023-04-1002:36:27] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1002:41:58] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:41:58] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:42:00] [ INFO ] [PacienteService:50] Buscando paciente id: 553
+[2023-04-1002:42:00] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1002:43:53] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:43:53] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:43:55] [ INFO ] [PacienteService:50] Buscando paciente id: 553
+[2023-04-1002:43:55] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1002:46:24] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:46:24] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:46:25] [ INFO ] [PacienteService:50] Buscando paciente id: 553
+[2023-04-1002:46:25] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1002:47:11] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:47:11] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:47:13] [ INFO ] [PacienteService:50] Buscando paciente id: 553
+[2023-04-1002:47:13] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1002:47:49] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:47:49] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:47:51] [ INFO ] [PacienteService:50] Buscando paciente id: 553
+[2023-04-1002:47:51] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1002:50:26] [ INFO ] [PacienteService:38] Modificando paciente id: 553
+[2023-04-1002:50:26] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1002:50:35] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:50:35] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:50:43] [ INFO ] [PacienteService:50] Buscando paciente id: 553
+[2023-04-1002:50:43] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1002:52:51] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:52:51] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:53:11] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:53:11] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:53:27] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:53:27] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:53:31] [ INFO ] [PacienteService:50] Buscando paciente id: 553
+[2023-04-1002:53:31] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1002:54:09] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:54:09] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:54:14] [ INFO ] [PacienteService:50] Buscando paciente id: 553
+[2023-04-1002:54:14] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1002:55:53] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:55:53] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:55:56] [ INFO ] [PacienteService:50] Buscando paciente id: 553
+[2023-04-1002:55:56] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1002:56:54] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:56:54] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:57:00] [ INFO ] [PacienteService:50] Buscando paciente id: 553
+[2023-04-1002:57:00] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1002:57:07] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:57:07] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:57:27] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:57:27] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:57:38] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:57:38] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:57:39] [ INFO ] [PacienteService:50] Buscando paciente id: 553
+[2023-04-1002:57:39] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1002:57:42] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:57:42] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:57:43] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 553
+[2023-04-1002:57:46] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:57:46] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:58:05] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "20230310": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '20230310' could not be parsed at index 0
+[2023-04-1002:59:04] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:59:04] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:59:19] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-1002:59:19] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-1002:59:22] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:59:22] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1002:59:28] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1002:59:28] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1002:59:46] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1002:59:46] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:00:05] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:00:05] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:00:10] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:00:10] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:00:36] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:00:36] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:00:42] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:00:42] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:00:44] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:00:44] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:00:46] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:00:46] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:01:03] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:01:03] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:01:14] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:01:14] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:08:58] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:08:58] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:09:01] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:09:01] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:09:52] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:09:52] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:09:53] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:09:53] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:10:37] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:10:38] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:10:39] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:10:39] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:11:09] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from Object value (token `JsonToken.START_OBJECT`)
+[2023-04-1003:11:56] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:11:56] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:12:03] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:12:03] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:12:59] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:12:59] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:13:03] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:13:03] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:13:32] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:13:32] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:13:33] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:13:33] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:14:25] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:14:25] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:14:31] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:14:31] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:14:41] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:14:41] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:14:47] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:14:47] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:15:17] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:15:17] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:15:22] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:15:22] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:16:14] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:16:14] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:16:25] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:16:25] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:16:30] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:16:30] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:16:47] [ INFO ] [PacienteService:38] Modificando paciente id: 602
+[2023-04-1003:16:47] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1003:16:55] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:16:55] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:17:30] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:17:31] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:17:36] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:17:36] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:17:43] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:17:43] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:17:48] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:17:48] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:17:59] [ INFO ] [PacienteService:38] Modificando paciente id: 602
+[2023-04-1003:17:59] [ INFO ] [PacienteService:38] Modificando paciente id: 602
+[2023-04-1003:17:59] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1003:17:59] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1003:18:26] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:18:26] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:18:31] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:18:31] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:18:31] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:18:31] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:18:34] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:18:34] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:18:34] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:18:34] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:18:40] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:18:40] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:18:41] [ INFO ] [PacienteService:50] Buscando paciente id: 602
+[2023-04-1003:18:41] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:25:17] [ ERROR] [GlobalExceptionHandler:14] Request method 'GET' is not supported
+[2023-04-1003:26:00] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:26:00] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:27:08] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-1003:27:08] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-1003:27:11] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:27:11] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:27:24] [ INFO ] [PacienteService:50] Buscando paciente id: 652
+[2023-04-1003:27:24] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:28:38] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:28:38] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:28:41] [ INFO ] [PacienteService:50] Buscando paciente id: 652
+[2023-04-1003:28:41] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-1003:29:03] [ INFO ] [PacienteService:38] Modificando paciente id: 652
+[2023-04-1003:29:03] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1003:29:10] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:29:10] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:39:39] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:39:39] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:39:41] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 602
+[2023-04-1003:39:42] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 652
+[2023-04-1003:40:21] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-1003:40:21] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-1003:40:24] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:40:24] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:41:02] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:41:02] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:42:08] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:42:09] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:42:32] [ INFO ] [PacienteService:38] Modificando paciente id: 702
+[2023-04-1003:42:32] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1003:42:37] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:42:37] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:43:06] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:43:07] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:43:09] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 702
+[2023-04-1003:43:28] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-1003:43:28] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-1003:43:30] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:43:30] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:46:47] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:46:48] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:47:14] [ INFO ] [PacienteService:38] Modificando paciente id: 752
+[2023-04-1003:47:15] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1003:47:18] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:47:18] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:49:08] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1003:49:08] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1003:50:02] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:50:02] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:50:04] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:50:04] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:50:05] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:50:05] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:50:07] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:50:07] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:50:20] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:50:20] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:52:00] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:52:00] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:52:25] [ INFO ] [PacienteService:38] Modificando paciente id: 752
+[2023-04-1003:52:25] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1003:52:30] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:52:30] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:53:16] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 752
+[2023-04-1003:53:17] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:53:17] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:53:18] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:53:18] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:53:37] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-1003:53:37] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-1003:54:42] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:54:42] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:55:03] [ INFO ] [PacienteService:38] Modificando paciente id: 802
+[2023-04-1003:55:03] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1003:56:41] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:56:42] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:57:10] [ INFO ] [PacienteService:38] Modificando paciente id: 802
+[2023-04-1003:57:10] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1003:59:33] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1003:59:33] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1003:59:57] [ INFO ] [PacienteService:38] Modificando paciente id: 802
+[2023-04-1003:59:57] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1004:00:04] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1004:00:04] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
