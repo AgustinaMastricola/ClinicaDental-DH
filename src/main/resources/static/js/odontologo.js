@@ -1,24 +1,40 @@
 window.addEventListener('load', function(){
-    const submitSuccess = document.getElementById('submitSuccessMessage-odon');
-    const submitError = document.getElementById('submitErrorMessage-odon');
-    const url = 'http://localhost:8080/odontologos';
+    /* Formulario POST */
+    const containerFormPost = document.getElementById('contenedor-form-post-odon');
+    const formPost = document.getElementById('form-post-odon');
     const nombre = document.getElementById('nombre-odon');
     const apellido = document.getElementById('apellido-odon');
     const nro_matricula = document.getElementById("nro_matricula");
-    const formulario = document.getElementById('odontologo-form-post');
-    const containerForm = document.getElementById('contenedor-form-post_odon');
-    const containerFormUpd = document.getElementById('contenedor-form-put_odon');
-    const containerList = document.getElementById('contenedor-listado-odon');
-    const odontologList = document.getElementById('lista-odontologos');
+    const mensajeExitoso = document.getElementById('submitSuccessMessage-odon');
+    const mensajeError = document.getElementById('submitErrorMessage-odon');
+
+    /* Formulario PUT */
+    const containerFormPut = document.getElementById('contenedor-form-put-odon');
+    const formPut = document.getElementById('form-put-odon');
+    const nombrePut = document.getElementById('nombre-odon-put')
+    const apellidoPut = document.getElementById('apellido-odon-put')
+    const nro_matriculaPut = document.getElementById('nro_matricula-put')
+    const mensajeExitosoPut = document.getElementById('submitSuccessMessage-odon-put')
+    const mensajeErrorPut = document.getElementById('submitErrorMessage-odon-put')
+
+    /* Endpoints */
+    const url = 'http://localhost:8080/odontologos';
+    const urlOdontAll = 'http://localhost:8080/odontologos/all';
+
+    /* Botones */
     const botonNuevo = document.getElementById('nuevo-odon');
     const botonListar = document.getElementById('listar-odon');
-    const urlOdont = 'http://localhost:8080/odontologos/all';
+
+    /* Renderizado de Odontologos */
+    const containerListOdont = document.getElementById('contenedor-listado-odon');
+    const listItemsOdonto = document.getElementById('listado-odontologos');
+
 
 /*---------- POST -------------*/
-    formulario.addEventListener('submit', function(event){
+    formPost.addEventListener('submit', function(event){
         event.preventDefault()
         postOdontologo()
-        formulario.reset()
+        formPost.reset()
     })
 
     async function postOdontologo() {
@@ -33,10 +49,10 @@ window.addEventListener('load', function(){
         try{
             const response = await fetch(url, settings);
             const datos = await response.json();
-            submitSuccess.classList.remove('d-none')
+            mensajeExitoso.classList.remove('d-none')
         }
         catch{
-            submitError.classList.remove('d-none')
+            mensajeError.classList.remove('d-none')
         }
 
     }
@@ -51,28 +67,28 @@ window.addEventListener('load', function(){
     }
 /* -------- BOTON CREAR 'NUEVO' -------------*/
     botonNuevo.addEventListener('click', function(event) {
-        containerList.classList.add('d-none');
-        containerForm.classList.remove('d-none');
+        containerListOdont.classList.add('d-none');
+        containerFormPost.classList.remove('d-none');
     })
 /* ----------- BOTON 'VER TODOS' ---------------*/
     botonListar.addEventListener('click', function(event){
-        containerForm.classList.add('d-none');
-        containerFormUpd.classList.add('d-none');
+        containerFormPost.classList.add('d-none');
+        containerFormPut.classList.add('d-none');
         listarTodosOdontologos();
-        containerList.classList.remove('d-none');
+        containerListOdont.classList.remove('d-none');
     })
 
 /*----------- LISTAR TODOS ---------------------*/
     async function listarTodosOdontologos(){
-            const response = await fetch(urlOdont);
+            const response = await fetch(urlOdontAll);
             const datos = await response.json();
             renderizarOdontologo(datos)
     }
     function renderizarOdontologo(list){
-        odontologList.innerHTML = '';
+        listItemsOdonto.innerHTML = '';
         list.forEach( odonto => {
-            odontologList.innerHTML += `
-                <tr id="fila-odonto-${odonto.id}">
+            listItemsOdonto.innerHTML += `
+                <tr id="item-odon-${odonto.id}">
                     <td class="invisible">${odonto.id}</td>
                     <td>${odonto.nombre} ${odonto.apellido}</td>
                     <td>${odonto.nro_matricula}</td>
@@ -86,6 +102,7 @@ window.addEventListener('load', function(){
         eliminarOdontologo()
         modificarOdontologo()
     }
+
 /*----------- DELETE BY ID ---------------------*/
     async function eliminarOdontologo(){
         const botonEliminar = document.querySelectorAll('.boton-eliminar-odon');
@@ -97,12 +114,12 @@ window.addEventListener('load', function(){
         })
     }
     function eliminarById(id){
-        const idFila = document.getElementById('fila-odonto-' + id);
+        const idItem = document.getElementById('item-odon-' + id);
         const settings = {
             method: 'DELETE'
         }
         fetch(`${url}/${id}`, settings)
-        .then(idFila.remove())
+        .then(idItem.remove())
     }
 
 /*------------ MODIFICAR DATOS - PUT -----------------*/
@@ -110,8 +127,8 @@ window.addEventListener('load', function(){
         const botonModificar = document.querySelectorAll('.boton-modificar-odon');
         botonModificar.forEach(boton => {
             boton.addEventListener('click', (event) => {
-                containerList.classList.add('d-none');
-                containerFormUpd.classList.remove('d-none');
+                containerListOdont.classList.add('d-none');
+                containerFormPut.classList.remove('d-none');
                 const id = event.target.id
                 putOdontologo(id)
             })
@@ -119,19 +136,13 @@ window.addEventListener('load', function(){
     }
 
     function putOdontologo(id){
-        const formUpd = document.getElementById('odontologo-form-put_odon');
-        const nombreUpd = document.getElementById('nombre-upd-odon')
-        const apellidoUpd = document.getElementById('apellido-upd-odon')
-        const nro_matriculaUpd = document.getElementById('nro_matricula-upd')
-        const updateSuccess = document.getElementById('submitSuccessMessage-upd-odon')
-
-        formUpd.addEventListener('submit', function(event){
+        formPut.addEventListener('submit', function(event){
             event.preventDefault()
             const formData = {
                 id: id,
-                nombre: nombreUpd.value,
-                apellido: apellidoUpd.value,
-                nro_matricula: nro_matriculaUpd.value
+                nombre: nombrePut.value,
+                apellido: apellidoPut.value,
+                nro_matricula: nro_matriculaPut.value
             }
             const settings = {
                 method: 'PUT',
@@ -141,8 +152,7 @@ window.addEventListener('load', function(){
                 body: JSON.stringify(formData)
             }
             fetch(url, settings)
-            .then(res => res.json())
-            .then(updateSuccess.classList.remove('d-none'))
+            mensajeExitosoPut.classList.remove('d-none')
         })
     }
 })

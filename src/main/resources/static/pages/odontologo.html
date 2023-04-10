@@ -55,15 +55,15 @@
                     <th class="centered">Opciones</th>
                 </tr>
                 </thead>
-                <tbody id="lista-odontologos"></tbody>
+                <tbody id="listado-odontologos"></tbody>
             </table>
         </div>
     </div>
 </div>
 <!-- FORM POST -->
-<div class="container d-none px-5 my-5" id="contenedor-form-post_odon">
+<div class="container d-none px-5 my-5" id="contenedor-form-post-odon">
     <h2 class="text-center">Registro de Odontólogos</h2>
-    <form action method="POST" id="odontologo-form-post">
+    <form action method="POST" id="form-post-odon">
         <fieldset class="d-flex flex-column align-items-center justify-content-center">
             <legend class="text-center">Datos del Odontólogo</legend>
             <div class="mb-3 col-6">
@@ -98,33 +98,33 @@
 </div>
 
 <!-- FORM PUT-->
-<div class="container px-5 my-5 d-none" id="contenedor-form-put_odon">
+<div class="container px-5 my-5 d-none" id="contenedor-form-put-odon">
     <h2 class="text-center">Actualización de datos</h2>
-    <form action method="PUT" id="odontologo-form-put">
+    <form action method="PUT" id="form-put-odon">
         <fieldset class="d-flex flex-column align-items-center justify-content-center">
             <legend class="text-center">Datos del Odontólogo</legend>
             <div class="mb-3 col-6">
-                <label class="form-label" for="nombre-upd-odon">Nombre</label>
-                <input class="form-control" id="nombre-upd-odon" type="text" placeholder="Nombre" data-sb-validations="required" required />
-                <div class="invalid-feedback" data-sb-feedback="nombre-upd-odon:required">Nombre es obligatorio.</div>
+                <label class="form-label" for="nombre-odon-put">Nombre</label>
+                <input class="form-control" id="nombre-odon-put" type="text" placeholder="Nombre" data-sb-validations="required" required />
+                <div class="invalid-feedback" data-sb-feedback="nombre-odon-put:required">Nombre es obligatorio.</div>
             </div>
             <div class="mb-3 col-6">
-                <label class="form-label" for="apellido-upd-odon">Apellido</label>
-                <input class="form-control" id="apellido-upd-odon" type="text" placeholder="Apellido" data-sb-validations="required" required/>
-                <div class="invalid-feedback" data-sb-feedback="apellido-upd-odon:required">Apellido es obligatorio.</div>
+                <label class="form-label" for="apellido-odon-put">Apellido</label>
+                <input class="form-control" id="apellido-odon-put" type="text" placeholder="Apellido" data-sb-validations="required" required/>
+                <div class="invalid-feedback" data-sb-feedback="apellido-odon-put:required">Apellido es obligatorio.</div>
             </div>
             <div class="mb-3 col-6">
-                <label class="form-label" for="nro_matricula-upd">Número de matrícula</label>
-                <input class="form-control" id="nro_matricula-upd" type="text" placeholder="Número de matrícula" data-sb-validations="required" required/>
-                <div class="invalid-feedback" data-sb-feedback="nro_matricula-upd:required">Campo obligatorio.</div>
+                <label class="form-label" for="nro_matricula-put">Número de matrícula</label>
+                <input class="form-control" id="nro_matricula-put" type="text" placeholder="Número de matrícula" data-sb-validations="required" required/>
+                <div class="invalid-feedback" data-sb-feedback="nro_matricula-put:required">Campo obligatorio.</div>
             </div>
         </fieldset>
-        <div class="d-none" id="submitSuccessMessage-upd-odon">
+        <div class="d-none" id="submitSuccessMessage-odon-put">
             <div class="text-center mb-3">
                 <div class="fw-bolder">Odontólogo modificado con éxito!</div>
             </div>
         </div>
-        <div class="d-none" id="submitErrorMessage-upd-odon">
+        <div class="d-none" id="submitErrorMessage-odon-put">
             <div class="text-center text-danger mb-3">Ocurrió un error. Intente de nuevo.</div>
         </div>
         <div class="d-flex justify-content-center">
