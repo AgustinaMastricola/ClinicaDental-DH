@@ -1,0 +1,806 @@
+[2023-03-3115:55:28] [ ERROR] [GlobalExceptionHandler:17] could not execute statement; SQL [n/a]; constraint [FKQTJ6T7MULC2JMFKV92X4CTKWH]
+
+[2023-04-0514:47:27] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0514:47:27] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0514:47:29] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0514:47:29] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0514:51:06] [ ERROR] [GlobalExceptionHandler:14] Content-Type 'text/plain;charset=UTF-8' is not supported
+[2023-04-0514:51:23] [ ERROR] [GlobalExceptionHandler:14] Content-Type 'text/plain;charset=UTF-8' is not supported
+[2023-04-0514:53:36] [ ERROR] [GlobalExceptionHandler:14] Content-Type 'text/plain;charset=UTF-8' is not supported
+[2023-04-0514:53:47] [ ERROR] [GlobalExceptionHandler:14] Request method 'GET' is not supported
+[2023-04-0514:54:47] [ ERROR] [GlobalExceptionHandler:14] Request method 'GET' is not supported
+[2023-04-0516:25:56] [ ERROR] [GlobalExceptionHandler:14] Content-Type 'text/plain;charset=UTF-8' is not supported
+[2023-04-0516:28:31] [ ERROR] [GlobalExceptionHandler:14] Content-Type 'text/plain;charset=UTF-8' is not supported
+[2023-04-0516:30:08] [ ERROR] [GlobalExceptionHandler:14] Content-Type 'text/plain;charset=UTF-8' is not supported
+[2023-04-0516:34:20] [ ERROR] [GlobalExceptionHandler:14] Content-Type 'text/plain;charset=UTF-8' is not supported
+[2023-04-0517:21:14] [ ERROR] [GlobalExceptionHandler:14] Request method 'GET' is not supported
+[2023-04-0610:33:30] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-0610:33:30] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-0610:33:35] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0610:33:35] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0610:33:39] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0610:33:39] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0610:33:44] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0610:33:44] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0610:33:48] [ INFO ] [TurnoService:26] Iniciando registro de turno nuevo
+[2023-04-0610:33:48] [ INFO ] [TurnoService:28] Turno agendado
+[2023-04-0610:33:51] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0610:33:51] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0610:33:51] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0615:01:06] [ ERROR] [GlobalExceptionHandler:14] Request method 'GET' is not supported
+[2023-04-0615:02:57] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0615:02:57] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0615:04:41] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0615:04:41] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0615:05:30] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0615:05:30] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0615:08:01] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0615:08:01] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0615:09:44] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0615:09:44] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0615:20:50] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0615:20:50] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0615:23:54] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0615:23:54] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0615:25:13] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0615:25:13] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0615:27:55] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0615:27:55] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0615:32:39] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0615:32:39] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0615:38:12] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0615:38:12] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0615:53:40] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0615:53:40] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0615:53:46] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0615:53:46] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0615:53:53] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0615:53:53] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0615:53:55] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0615:53:55] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0615:54:52] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0615:54:52] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0615:58:05] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0615:58:06] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0615:58:08] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0615:58:08] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0615:58:15] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0615:58:15] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0615:58:34] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0615:58:34] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0615:58:35] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0615:58:35] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0615:58:35] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0615:58:35] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0615:58:35] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0615:58:35] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0615:58:35] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0615:58:35] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0615:58:35] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0615:58:35] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0615:58:36] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0615:58:36] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0615:59:12] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0615:59:12] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:03:28] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:03:28] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:03:45] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:03:45] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:03:48] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:03:48] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:05:27] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:05:27] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:06:06] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:06:06] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:06:55] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:06:55] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:07:11] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:07:11] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:12:03] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:12:03] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:19:01] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:19:01] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:19:06] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:19:06] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:19:10] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:19:10] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:22:35] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:22:36] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:27:28] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0616:27:28] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0616:27:30] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:27:30] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:28:15] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:28:15] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:28:16] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:28:16] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:28:16] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:28:16] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:31:47] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:31:48] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:31:50] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:31:50] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:32:48] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:32:49] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:38:05] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0616:38:05] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0616:38:08] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:38:08] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:48:47] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0616:48:47] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0616:48:50] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:48:50] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:51:20] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:51:20] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0616:59:54] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0616:59:54] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:00:51] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:00:52] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:01:49] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:01:49] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:05:52] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:05:52] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:05:53] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:05:53] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:05:57] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:05:57] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:05:59] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:05:59] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:06:00] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:06:00] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:06:05] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:06:05] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:21:19] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:21:19] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:24:29] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:24:29] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:25:52] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0617:25:52] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0617:25:56] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:25:56] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:28:17] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:28:17] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:31:03] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:31:04] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:32:16] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:32:16] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:38:39] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:38:39] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:38:40] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:38:40] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:39:22] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:39:22] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:41:41] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:41:41] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:41:50] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:41:50] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:41:52] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:41:52] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0617:41:53] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0617:41:53] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0618:00:01] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0618:00:01] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0618:03:30] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0618:03:30] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0618:03:46] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0618:03:46] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0618:03:52] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0618:03:52] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0619:07:30] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0619:07:31] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0619:07:53] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0619:07:53] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0619:08:27] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0619:08:27] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0619:16:50] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0619:16:50] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0715:07:04] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0715:07:04] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0715:51:52] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0715:51:52] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0716:35:58] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0716:35:58] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0716:36:05] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0716:36:05] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0716:37:02] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0716:37:02] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0716:39:15] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0716:39:15] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0716:46:03] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0716:46:03] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0716:56:49] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0716:56:49] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0716:57:04] [ ERROR] [GlobalExceptionHandler:14] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "a1"
+[2023-04-0716:57:09] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1
+[2023-04-0716:57:09] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0716:57:20] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0716:57:20] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0716:58:44] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0716:58:44] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0716:58:46] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 302
+[2023-04-0717:04:28] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0717:04:28] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0717:04:30] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 54
+[2023-04-0717:05:44] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0717:05:44] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0717:05:46] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 2
+[2023-04-0717:07:07] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0717:07:07] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0717:07:11] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 352
+[2023-04-0717:07:13] [ ERROR] [GlobalExceptionHandler:14] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(1 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-04-0717:07:13] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 52
+[2023-04-0717:07:13] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 202
+[2023-04-0717:07:14] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 702
+[2023-04-0717:07:15] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 102
+[2023-04-0717:07:16] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 53
+[2023-04-0717:07:17] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 502
+[2023-04-0717:07:18] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 602
+[2023-04-0717:07:29] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0717:07:29] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0717:07:30] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 552
+[2023-04-0717:07:33] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 152
+[2023-04-0717:07:33] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 203
+[2023-04-0717:07:34] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 252
+[2023-04-0717:07:35] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 752
+[2023-04-0717:07:36] [ ERROR] [GlobalExceptionHandler:14] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(1 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-04-0717:07:40] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 253
+[2023-04-0717:07:58] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 652
+[2023-04-0717:08:31] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 402
+[2023-04-0717:08:31] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 452
+[2023-04-0717:08:37] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0717:08:37] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0717:08:41] [ ERROR] [GlobalExceptionHandler:14] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (CAST(1 AS BIGINT))"; SQL statement:
+delete from odontologos where id=? [23503-214]]
+[2023-04-0717:08:43] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0717:08:43] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0717:08:47] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0717:08:47] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0717:08:56] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0717:08:56] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0717:12:03] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0717:12:03] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0717:12:08] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 1
+[2023-04-0717:12:12] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0717:12:12] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0717:12:14] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0717:12:14] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0717:12:18] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0717:12:18] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0717:12:18] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0717:12:18] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0717:12:22] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0717:12:22] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0722:17:47] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0722:17:47] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0722:17:55] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0722:17:55] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0722:18:06] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 802
+[2023-04-0722:45:13] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0722:45:13] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0722:45:21] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0722:45:21] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0722:55:58] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0722:55:58] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0800:03:09] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:03:10] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:03:13] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 902
+[2023-04-0800:03:14] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 852
+[2023-04-0800:03:19] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:03:19] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:03:46] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0800:03:46] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0800:03:49] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:03:49] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:08:47] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:08:47] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:08:51] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 952
+[2023-04-0800:09:00] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0800:09:00] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0800:09:04] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:09:04] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:10:26] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0800:10:26] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0800:10:29] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:10:29] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:10:32] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 1002
+[2023-04-0800:11:06] [ INFO ] [OdontologoService:37] Modificando odontologo id: 1052
+[2023-04-0800:11:06] [ INFO ] [OdontologoService:44] Odontologo Modificado
+[2023-04-0800:11:10] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:11:10] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:13:15] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:13:16] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:13:30] [ INFO ] [OdontologoService:37] Modificando odontologo id: 1052
+[2023-04-0800:13:30] [ INFO ] [OdontologoService:44] Odontologo Modificado
+[2023-04-0800:19:22] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:19:22] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:19:44] [ INFO ] [OdontologoService:37] Modificando odontologo id: 1052
+[2023-04-0800:19:44] [ INFO ] [OdontologoService:44] Odontologo Modificado
+[2023-04-0800:22:18] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:22:19] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:22:32] [ INFO ] [OdontologoService:37] Modificando odontologo id: 1052
+[2023-04-0800:22:32] [ INFO ] [OdontologoService:44] Odontologo Modificado
+[2023-04-0800:22:35] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:22:35] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:22:39] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:22:39] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:24:36] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:24:37] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:24:39] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:24:39] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:24:44] [ INFO ] [OdontologoService:37] Modificando odontologo id: 1052
+[2023-04-0800:24:44] [ INFO ] [OdontologoService:44] Odontologo Modificado
+[2023-04-0800:25:45] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:25:45] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:26:07] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:26:07] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:26:09] [ INFO ] [OdontologoService:37] Modificando odontologo id: 1052
+[2023-04-0800:26:09] [ INFO ] [OdontologoService:37] Modificando odontologo id: 1052
+[2023-04-0800:26:09] [ INFO ] [OdontologoService:44] Odontologo Modificado
+[2023-04-0800:26:09] [ INFO ] [OdontologoService:44] Odontologo Modificado
+[2023-04-0800:26:13] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:26:13] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:29:53] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:29:54] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:29:57] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 1052
+[2023-04-0800:30:12] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0800:30:12] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0800:30:14] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:30:14] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:30:33] [ INFO ] [OdontologoService:37] Modificando odontologo id: 1102
+[2023-04-0800:30:33] [ INFO ] [OdontologoService:44] Odontologo Modificado
+[2023-04-0800:30:36] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:30:36] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:31:41] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:31:41] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:31:46] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:31:46] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0800:31:51] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0800:31:51] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0801:51:53] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0801:51:53] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0801:53:14] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0801:53:15] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0801:54:01] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0801:54:01] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0801:54:06] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 1102
+[2023-04-0801:54:18] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0801:54:18] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0801:54:22] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0801:54:22] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0801:54:34] [ INFO ] [OdontologoService:37] Modificando odontologo id: 1152
+[2023-04-0801:54:34] [ INFO ] [OdontologoService:44] Odontologo Modificado
+[2023-04-0801:54:43] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0801:54:43] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0802:01:12] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0802:01:12] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0802:01:13] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0802:01:13] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0802:01:18] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0802:01:18] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0802:01:20] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0802:01:20] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0802:01:21] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0802:01:21] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0802:01:22] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0802:01:22] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0802:01:23] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0802:01:23] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0802:01:24] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0802:01:24] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0802:01:25] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0802:01:25] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0802:01:26] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0802:01:26] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0802:16:12] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-0802:16:12] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-0802:49:50] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0802:49:50] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0802:50:10] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-0802:50:10] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-0802:50:14] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0802:50:14] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0802:54:15] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-0802:54:15] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-0802:54:23] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0802:54:23] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0802:55:41] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 102
+[2023-04-0802:55:42] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 152
+[2023-04-0802:55:43] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 52
+[2023-04-0802:56:59] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0802:56:59] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0802:57:20] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "202336": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '202336' could not be parsed at index 0
+[2023-04-0803:01:32] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0803:01:32] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0803:01:50] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "202336": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '202336' could not be parsed at index 0
+[2023-04-0803:02:26] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "202336": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '202336' could not be parsed at index 0
+[2023-04-0803:09:27] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0803:09:27] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0803:11:21] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "202336": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '202336' could not be parsed at index 0
+[2023-04-0803:12:56] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "202336": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '202336' could not be parsed at index 0
+[2023-04-0803:20:33] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "202336": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '202336' could not be parsed at index 0
+[2023-04-0803:32:16] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "8-3-2023": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '8-3-2023' could not be parsed at index 0
+[2023-04-0804:07:01] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "08-03-2023": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '08-03-2023' could not be parsed at index 0
+[2023-04-0804:25:37] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-0804:25:37] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-0804:25:56] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0804:25:56] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0804:26:08] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 202
+[2023-04-0804:37:21] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-0804:37:21] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-0804:37:29] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0804:37:29] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0804:45:16] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-0804:45:16] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-0804:45:20] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0804:45:20] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0804:46:22] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0804:46:22] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0804:47:33] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0804:47:33] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0804:49:55] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0804:49:55] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0804:50:22] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0804:50:22] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0804:52:14] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0804:52:14] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0804:55:26] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0804:55:26] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0804:56:31] [ INFO ] [PacienteService:50] Buscando paciente id: 252
+[2023-04-0804:56:31] [ INFO ] [PacienteService:56] Paciente encontrado por Id
+[2023-04-0804:59:22] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0804:59:22] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0805:00:02] [ INFO ] [PacienteService:38] Modificando paciente id: 252
+[2023-04-0805:00:02] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-0805:00:16] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0805:00:16] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0805:00:20] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 252
+[2023-04-0805:00:20] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 203
+[2023-04-0814:14:46] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0814:15:12] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-0814:15:12] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-0814:15:16] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0814:15:16] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0814:15:29] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0814:15:29] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0814:15:32] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0814:15:32] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0814:16:14] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 1202
+[2023-04-0814:16:15] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 1152
+[2023-04-0814:16:38] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0814:16:38] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0814:16:56] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0814:16:56] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0814:17:42] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0814:17:42] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0814:17:56] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0814:17:56] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0814:18:12] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-0814:18:12] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-0814:18:13] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0814:18:13] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0814:18:29] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0814:18:29] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0814:18:30] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 302
+[2023-04-0814:18:31] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 203
+[2023-04-0814:18:32] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 252
+[2023-04-0814:19:14] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-0814:19:14] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-0814:19:44] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-0814:19:44] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-0814:20:33] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-0814:20:33] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-0814:21:20] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-0814:21:20] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-0814:21:21] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0814:21:21] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0815:12:42] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0815:12:43] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0815:14:03] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0815:14:03] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0912:00:37] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0912:00:37] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0912:00:37] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0912:00:37] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0912:00:44] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0912:00:44] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0913:10:53] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0913:10:53] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0913:12:19] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0913:12:19] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0913:16:41] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0913:16:42] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0913:18:14] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0913:18:15] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0913:18:55] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0913:18:55] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0913:20:36] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0913:20:37] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0913:20:58] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0913:20:58] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0913:21:00] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 1206
+[2023-04-0913:21:05] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0913:21:05] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0913:22:15] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0913:22:15] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0913:28:14] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0913:28:14] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0913:28:18] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0913:28:18] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0913:28:20] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0913:28:20] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0913:59:40] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0913:59:40] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0914:00:11] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0914:00:11] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0914:00:39] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0914:00:39] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0914:12:18] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0914:12:18] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0914:16:41] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0914:16:41] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0914:19:22] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0914:19:23] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0914:20:07] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0914:20:07] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0914:21:11] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0914:21:11] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0914:23:12] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0914:23:12] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0914:26:56] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0914:26:57] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0914:28:37] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0914:28:37] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0914:41:32] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0914:41:32] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0914:44:12] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0914:44:12] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0914:46:05] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0914:46:05] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0914:48:31] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "2023-03-14T8:30": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '2023-03-14T8:30' could not be parsed at index 11
+[2023-04-0914:50:35] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0914:50:35] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0914:51:22] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "2023-03-13T8:30": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '2023-03-13T8:30' could not be parsed at index 11
+[2023-04-0914:54:12] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0914:54:12] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0914:55:00] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "2023-03-09T8:30": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '2023-03-09T8:30' could not be parsed at index 11
+[2023-04-0914:56:03] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0914:56:03] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0914:56:56] [ INFO ] [TurnoService:26] Iniciando registro de turno nuevo
+[2023-04-0914:56:56] [ INFO ] [TurnoService:28] Turno agendado
+[2023-04-0914:57:32] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0914:57:32] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0915:13:05] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:13:05] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:14:15] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0915:14:15] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0915:14:16] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:14:16] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:14:17] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0915:14:17] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0915:14:18] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:14:18] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:14:30] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:14:30] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:26:24] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:26:24] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:26:43] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1207
+[2023-04-0915:26:43] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0915:29:30] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1
+[2023-04-0915:29:30] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0915:29:40] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0915:29:40] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0915:29:49] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1207
+[2023-04-0915:29:49] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0915:31:05] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:31:05] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:31:05] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1207
+[2023-04-0915:31:05] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0915:37:34] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:37:34] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:37:34] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1207
+[2023-04-0915:37:34] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0915:39:12] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:39:12] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:39:13] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1207
+[2023-04-0915:39:13] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0915:40:14] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:40:15] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:40:15] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1207
+[2023-04-0915:40:15] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0915:40:29] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:40:29] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:40:29] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1207
+[2023-04-0915:40:29] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0915:40:31] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0915:40:31] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0915:40:32] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:40:32] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:40:32] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1207
+[2023-04-0915:40:32] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0915:40:35] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:40:35] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:40:35] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1207
+[2023-04-0915:40:35] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0915:40:43] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:40:43] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:40:43] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1207
+[2023-04-0915:40:43] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0915:41:03] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:41:03] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:41:03] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1207
+[2023-04-0915:41:03] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0915:41:04] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0915:41:04] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0915:41:05] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:41:05] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:41:05] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1207
+[2023-04-0915:41:05] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0915:41:09] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:41:09] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:41:09] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1207
+[2023-04-0915:41:09] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0915:41:35] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:41:35] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:41:35] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1207
+[2023-04-0915:41:36] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0915:44:07] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0915:44:08] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0915:44:08] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1207
+[2023-04-0915:44:08] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0920:31:52] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0920:31:53] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0920:31:53] [ INFO ] [OdontologoService:49] Buscando odontologo id: 1207
+[2023-04-0920:31:53] [ INFO ] [OdontologoService:55] Odontologo encontrado por Id
+[2023-04-0920:36:29] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0920:36:29] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0920:37:48] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0920:37:49] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0920:38:38] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0920:38:38] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0920:41:19] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0920:41:20] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0920:43:05] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0920:43:05] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0920:43:44] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-0920:43:44] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-0920:43:47] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0920:43:47] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0920:43:57] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0920:43:57] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0920:44:01] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0920:44:01] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0920:44:13] [ INFO ] [TurnoService:26] Iniciando registro de turno nuevo
+[2023-04-0920:44:13] [ INFO ] [TurnoService:28] Turno agendado
+[2023-04-0920:44:15] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0920:44:15] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0920:44:15] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0920:44:40] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0920:44:40] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0920:44:45] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0920:44:45] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0920:44:51] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 352
+[2023-04-0920:48:25] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0920:48:25] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0920:48:25] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0920:48:27] [ INFO ] [TurnoService:34] Se eliminó el turno con id: 102
+[2023-04-0920:48:32] [ INFO ] [TurnoService:34] Se eliminó el turno con id: 52
+[2023-04-0921:01:57] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0921:01:59] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0921:01:59] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0921:01:59] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0921:02:09] [ INFO ] [TurnoService:26] Iniciando registro de turno nuevo
+[2023-04-0921:02:09] [ INFO ] [TurnoService:28] Turno agendado
+[2023-04-0921:02:11] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0921:02:11] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0922:18:56] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-0922:18:56] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-0922:19:07] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0922:19:07] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0922:19:12] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0922:19:12] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0922:22:10] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0922:22:10] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0922:23:02] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0922:23:02] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0922:23:11] [ INFO ] [TurnoService:34] Se eliminó el turno con id: 152
+[2023-04-0922:23:12] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0922:23:12] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0922:23:26] [ INFO ] [TurnoService:26] Iniciando registro de turno nuevo
+[2023-04-0922:23:26] [ INFO ] [TurnoService:28] Turno agendado
+[2023-04-0922:23:30] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0922:23:30] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0922:56:04] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0922:56:05] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0922:56:56] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0922:56:56] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0922:59:53] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0922:59:53] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0923:02:42] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "NaN-NaN-NaNT0Hora:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text 'NaN-NaN-NaNT0Hora:00' could not be parsed at index 0
+[2023-04-0923:14:37] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:14:37] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:14:41] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0923:14:41] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0923:14:44] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:14:44] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:14:51] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0923:14:51] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0923:14:54] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:14:54] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:15:05] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "NaN-NaN-NaNT0Hora:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text 'NaN-NaN-NaNT0Hora:00' could not be parsed at index 0
+[2023-04-0923:15:05] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "NaN-NaN-NaNT0Hora:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text 'NaN-NaN-NaNT0Hora:00' could not be parsed at index 0
+[2023-04-0923:16:35] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:16:35] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:16:38] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0923:16:38] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0923:16:39] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:16:39] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:16:42] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0923:16:42] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0923:19:06] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0923:19:06] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0923:19:08] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:19:08] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:19:16] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "NaN-NaN-NaNT0Hora:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text 'NaN-NaN-NaNT0Hora:00' could not be parsed at index 0
+[2023-04-0923:23:49] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0923:23:49] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0923:23:52] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:23:52] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:24:00] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "NaN-NaN-NaNT0Hora:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text 'NaN-NaN-NaNT0Hora:00' could not be parsed at index 0
+[2023-04-0923:25:21] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0923:25:21] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0923:25:23] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:25:23] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:25:30] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "NaN-NaN-NaNT0Hora:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text 'NaN-NaN-NaNT0Hora:00' could not be parsed at index 0
+[2023-04-0923:26:44] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "NaN-NaN-NaNT0Hora:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text 'NaN-NaN-NaNT0Hora:00' could not be parsed at index 0
+[2023-04-0923:31:12] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "NaN-NaN-NaNT0Hora:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text 'NaN-NaN-NaNT0Hora:00' could not be parsed at index 0
+[2023-04-0923:40:20] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:40:20] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:43:04] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0923:43:05] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0923:43:12] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:43:12] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:45:27] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0923:45:27] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0923:45:30] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:45:30] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:46:05] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:46:05] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:46:06] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0923:46:06] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0923:46:07] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:46:07] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:46:31] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "NaN-NaN-NaNT0Hora:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text 'NaN-NaN-NaNT0Hora:00' could not be parsed at index 0
+[2023-04-0923:46:33] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "NaN-NaN-NaNT08:30:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text 'NaN-NaN-NaNT08:30:00' could not be parsed at index 0
+[2023-04-0923:46:34] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:46:34] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:46:38] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:46:38] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:53:44] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-0923:53:44] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-0923:53:45] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:53:45] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:55:23] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:55:23] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-0923:56:38] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-0923:56:38] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1000:00:57] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1000:00:57] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1000:01:39] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-1000:01:39] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-1000:01:43] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1000:01:43] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1000:03:12] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1000:03:12] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1000:03:35] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1000:03:35] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1000:03:48] [ INFO ] [OdontologoService:25] Iniciando registro de Odontologo
+[2023-04-1000:03:48] [ INFO ] [OdontologoService:27] Odontologo Guardado
+[2023-04-1000:03:50] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1000:03:50] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1000:04:08] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1000:04:09] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1000:04:10] [ INFO ] [OdontologoService:33] Se eliminó el odontologo con id: 1252
+[2023-04-1000:04:12] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1000:04:12] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
