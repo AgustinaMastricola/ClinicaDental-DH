@@ -52,16 +52,16 @@
                     <th class="centered">Odontólogo</th>
                 </tr>
                 </thead>
-                <tbody id="lista-turnos"></tbody>
+                <tbody id="listado-turnos"></tbody>
             </table>
         </div>
     </div>
 </div>
 
 <!-- FORM POST -->
-<div class="container d-non px-5 my-5 d-none" id="contenedor-form-post_tur" >
+<div class="container d-non px-5 my-5 d-none" id="contenedor-form-post-tur" >
     <h2 class="text-center">Solicitar Turno</h2>
-    <form action method="POST" id="turno-form-post">
+    <form action method="POST" id="form-post-tur">
         <fieldset class="d-flex flex-column align-items-center justify-content-center">
             <legend class="text-center">Turnos</legend>
             <div class="mb-3 col-6">
@@ -104,13 +104,13 @@
 </div>
 
 <!-- FORM PUT -->
-<div class="container d-non px-5 my-5 d-none" id="contenedor-form-put_tur" >
+<div class="container d-non px-5 my-5 d-none" id="contenedor-form-put-tur" >
     <h2 class="text-center">Modificar Turno</h2>
-    <form action method="PUT" id="turno-form-put">
+    <form action method="PUT" id="form-put-tur">
         <fieldset class="d-flex flex-column align-items-center justify-content-center">
             <div class="mb-3 col-6">
-                <label class="form-label" for="hora-upd-tur">Horario</label>
-                <select id="hora-upd-tur" class="form-control form-select" data-sb-validations="required" required>
+                <label class="form-label" for="hora-tur-put">Horario</label>
+                <select id="hora-tur-put" class="form-control form-select" data-sb-validations="required" required>
                     <option selected>Hora</option>
                     <option value="8:30">08:30</option>
                     <option value="9:30">09:30</option>
@@ -119,29 +119,29 @@
                     <option value="12:30">12:30</option>
                     <option value="13:30">13:30</option>
                 </select>
-                <div class="invalid-feedback" data-sb-feedback="hora-upd-tur:required">Campo obligatorio.</div>
+                <div class="invalid-feedback" data-sb-feedback="hora-tur-put:required">Campo obligatorio.</div>
             </div>
             <div class="mb-3 col-6">
-                <label class="form-label" for="fecha-upd-tur">Fecha</label>
-                <input class="form-control" id="fecha-upd-tur" type="date" data-sb-validations="required" required/>
-                <div class="invalid-feedback" data-sb-feedback="fecha-upd-tur:required">Campo obligatorio.</div>
+                <label class="form-label" for="fecha-tur-put">Fecha</label>
+                <input class="form-control" id="fecha-tur-put" type="date" data-sb-validations="required" required/>
+                <div class="invalid-feedback" data-sb-feedback="fecha-tur-put:required">Campo obligatorio.</div>
             </div>
             <div class="mb-3 col-6">
-                <label class="form-label" for="odontologo-upd-tur">Odontólogos</label>
-                <select id="odontologo-upd-tur" class="form-control form-select" data-sb-validations="required" required>
+                <label class="form-label" for="odontologo-tur-put">Odontólogos</label>
+                <select id="odontologo-tur-put" class="form-control form-select" data-sb-validations="required" required>
                     <option selected>Profesional</option>
                     <!-- ACA TIENE QUE LISTAR LOS ODONTOLOGOS, Y MOSTRAR EL NOMBRE Y APELLIDO - CREAR <option>${}</option> -->
 
                 </select>
-                <div class="invalid-feedback" data-sb-feedback="odontologo-upd-tur:required">Campo obligatorio.</div>
+                <div class="invalid-feedback" data-sb-feedback="odontologo-tur-put:required">Campo obligatorio.</div>
             </div>
         </fieldset>
-        <div class="d-none" id="submitSuccessMessage-upd-tur">
+        <div class="d-none" id="submitSuccessMessage-tur-put">
             <div class="text-center mb-3">
                 <div class="fw-bolder">Turno modificado con éxito!</div>
             </div>
         </div>
-        <div class="d-none" id="submitErrorMessage-upd-tur">
+        <div class="d-none" id="submitErrorMessage-tur-put">
             <div class="text-center text-danger mb-3">No se pudo modificar el turno. Intente de nuevo.</div>
         </div>
         <div class="d-flex justify-content-center">

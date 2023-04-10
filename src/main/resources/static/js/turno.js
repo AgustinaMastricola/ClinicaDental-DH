@@ -1,27 +1,41 @@
 window.addEventListener('load', function () {
-    const submitSuccess = document.getElementById('submitSuccessMessage-tur');
-    const submitError = document.getElementById('submitErrorMessage-tur');
-    const urlTurno = 'http://localhost:8080/turnos';
+    /* Formulario POST */
+    const containerFormPost = document.getElementById('contenedor-form-post-tur');
+    const formPost = document.getElementById('form-post-tur');
     const hora = document.getElementById('hora-tur');
     const fecha = document.getElementById('fecha-tur');
-    const formulario = document.getElementById('turno-form-post');
-    const containerForm = document.getElementById('contenedor-form-post_tur');
-    const containerFormUpd = document.getElementById('contenedor-form-put_tur');
-    const containerList = document.getElementById('contenedor-listado-tur');
-    const turnoList = document.getElementById('lista-turnos');
-    const containerListOdontologos = document.getElementById('odontologo-tur');
-    const horaUpd = document.getElementById('hora-upd-tur')
-    const containerListOdonUpd = document.getElementById('odontologo-upd-tur')
+    const containerOptionOdont = document.getElementById("odontologo-tur");
+    const mensajeExitoso = document.getElementById('submitSuccessMessage-tur');
+    const mensajeError = document.getElementById('submitErrorMessage-tur');
+
+    /* Formulario PUT */
+    const containerFormPut = document.getElementById('contenedor-form-put-tur');
+    const formPut = document.getElementById('form-put-tur');
+    const horaPut = document.getElementById('hora-tur-put');
+    const fechaPut = document.getElementById('fecha-tur-put');
+    const containerOptionOdontPut = document.getElementById("odontologo-tur-put");
+    const mensajeExitosoPut = document.getElementById('submitSuccessMessage-tur-put');
+    const mensajeErrorPut = document.getElementById('submitErrorMessage-tur-put');
+
+    /* Endpoints */
+    const url = 'http://localhost:8080/turnos';
+    const urlTurAll = 'http://localhost:8080/turnos/all';
+    const urlOdon = 'http://localhost:8080/odontologos';
+
+    /* Botones */
     const botonNuevo = document.getElementById('nuevo-tur');
     const botonListar = document.getElementById('listar-tur');
-    const urlTurnos = 'http://localhost:8080/turnos/all';
-    const urlOdont = 'http://localhost:8080/odontologos';
+
+    /* Renderizado de Listado Turnos */
+    const containerListTur = document.getElementById('contenedor-listado-tur');
+    const listItemsTur = document.getElementById('listado-turnos')
+
 
     /* Ecuchar evento submit del form */
-    formulario.addEventListener('submit', function(event){
+    formPost.addEventListener('submit', function(event){
         event.preventDefault()
         postTurno()
-        formulario.reset()
+        formPost.reset()
     })
 
     /* Hacer el POST */
@@ -36,58 +50,56 @@ window.addEventListener('load', function () {
         }
         try{
             const response = await fetch(url, settings);
-
-            submitSuccess.classList.remove('d-none')
+            mensajeExitoso.classList.remove('d-none')
         }
         catch{
-            submitError.classList.remove('d-none')
+            mensajeError.classList.remove('d-none')
         }
     }
     /* Capturo la hora elegida */
-    function obtenerHora(){
-        let horaSelected = hora.value
+    function obtenerHora(selected){
+        let horaSelected = selected.value
         return horaSelected;
     }
     /* Capturo el ID del odontologo elegido */
-    function obtenerIdOdonSelected(){
-        let odonSelected = containerListOdontologos.value
+    function obtenerIdOdonSelected(selected){
+        let odonSelected = selected.value
         return parseInt(odonSelected);
     }
-
-
     /* Capturar los datos del form */
     function capturarDatos(){
-        const odontologoId = obtenerIdOdonSelected();
-        let horaSelect = obtenerHora();
+        const odontologoId = obtenerIdOdonSelected(containerOptionOdont);
+        let horaSelect = obtenerHora(hora);
+        let horaParse = horaSelect.padStart(5,0)
         let fechaNum = fecha.valueAsNumber;
         let fechaParse = new Date(fechaNum);
         let year = fechaParse.getFullYear().toString();
-        let mes = fechaParse.getMonth().toString().padStart(2,'0');
-        let dia = fechaParse.getDate().toString().padStart(2,'0');
+        let mes = (fechaParse.getMonth() +1).toString().padStart(2,'0');
+        let dia = (fechaParse.getDate() +1).toString().padStart(2,'0');
         const formData = {
-            fecha_hora: `${year}-${mes}-${dia}T0${horaSelect}:00`,
-            paciente: {id: 306},
+            fecha_hora: `${year}-${mes}-${dia}T${horaParse}:00`,
+            paciente: {id: 802},
             odontologo: {id: odontologoId}
         }
         return formData;
     }
     /* -------- BOTON CREAR 'NUEVO' -------------*/
     botonNuevo.addEventListener('click', function(event) {
-        containerList.classList.add('d-none');
-        obtenerOdontologos(containerListOdontologos)
-        containerForm.classList.remove('d-none');
+        containerListTur.classList.add('d-none');
+        generarOptionsOdon(containerOptionOdont)
+        containerFormPost.classList.remove('d-none');
     })
     /* ----------- BOTON 'VER TODOS' ---------------*/
     botonListar.addEventListener('click', function(event){
-        containerForm.classList.add('d-none');
-        containerFormUpd.classList.add('d-none');
+        containerFormPost.classList.add('d-none');
+        containerFormPut.classList.add('d-none');
         listarTodos();
-        containerList.classList.remove('d-none');
+        containerListTur.classList.remove('d-none');
     })
 
     /* Renderizado de Nombres de Odontologos en el Formulario */
-    async function obtenerOdontologos(contenedor){
-        const response = await fetch(`${urlOdont}/all`);
+    async function generarOptionsOdon(contenedor){
+        const response = await fetch(`${urlOdon}/all`);
         const datos = await response.json();
         renderizarListaOdontologos(datos, contenedor);
     }
@@ -104,18 +116,19 @@ window.addEventListener('load', function () {
 
     /*----------- LISTAR TODOS ---------------------*/
     async function listarTodos(){
-        const response = await fetch(urlTurnos);
+        const response = await fetch(urlTurAll);
         const datos = await response.json();
         renderizarTurno(datos)
     }
 
     function renderizarTurno(list){
-        turnoList.innerHTML = '';
+        listItemsTur.innerHTML = '';
         list.forEach( turno => {
-            turnoList.innerHTML += `
-                <tr id="fila-turno-${turno.id}">
+            let fechaHora = turno.fecha_hora.replace('T', ' / ').slice(0,18)
+            listItemsTur.innerHTML += `
+                <tr id="item-tur-${turno.id}">
                     <td class="invisible">${turno.id}</td>
-                    <td>${turno.fecha_hora}</td>
+                    <td>${fechaHora}</td>
                     <td>PACIENTE</td>
                     <td>${turno.odontologo.nombre} ${turno.odontologo.apellido}</td>
                     <td>
@@ -126,7 +139,7 @@ window.addEventListener('load', function () {
             `
         })
         eliminarTurno()
-        //modificarTurno()
+        modificarTurno()
     }
     /*----------- DELETE BY ID ---------------------*/
     async function eliminarTurno(){
@@ -139,12 +152,55 @@ window.addEventListener('load', function () {
         })
     }
     function eliminarById(id){
-        const idFila = document.getElementById('fila-turno-' + id);
+        const idItem = document.getElementById('item-tur-' + id);
         const settings = {
             method: 'DELETE'
         }
         fetch(`${url}/${id}`, settings)
-        .then(idFila.remove())
+        .then(idItem.remove())
     }
+
+    /*------------ MODIFICAR DATOS - PUT -----------------*/
+    async function modificarTurno(){
+        const botonModificar = document.querySelectorAll('.boton-modificar-tur');
+        botonModificar.forEach(boton => {
+            boton.addEventListener('click', (event) => {
+                containerListTur.classList.add('d-none');
+                containerFormPut.classList.remove('d-none');
+                generarOptionsOdon(containerOptionOdontPut)
+                const id = event.target.id
+                putTurno(id)
+            })
+        })
+    }
+
+    function putTurno(id){
+        formPut.addEventListener('submit', function(event){
+            event.preventDefault()
+            const odontologoId = obtenerIdOdonSelected(containerOptionOdontPut);
+            let horaSelect = obtenerHora(horaPut);
+            let horaParse = horaSelect.padStart(5,0)
+            let fechaNum = fechaPut.valueAsNumber;
+            let fechaParse = new Date(fechaNum);
+            let year = fechaParse.getFullYear().toString();
+            let mes = (fechaParse.getMonth() +1).toString().padStart(2,'0');
+            let dia = (fechaParse.getDate() +1).toString().padStart(2,'0');
+            const formData = {
+                id: id,
+                fecha_hora: `${year}-${mes}-${dia}T${horaParse}:00`,
+                paciente: {id: 802},
+                odontologo: {id: odontologoId}
+            }
+            const settings = {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json; charset=UTF-8'
+                },
+                body: JSON.stringify(formData)
+            }
+            fetch(url, settings)
+            .then(mensajeExitosoPut.classList.remove('d-none'))
+    })
+}
 
 })

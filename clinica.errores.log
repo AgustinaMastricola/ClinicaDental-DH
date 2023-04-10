@@ -1217,3 +1217,98 @@ delete from pacientes where id=? [23503-214]]
 [2023-04-1003:59:57] [ INFO ] [PacienteService:45] Paciente modificado
 [2023-04-1004:00:04] [ INFO ] [PacienteService:61] Buscando todos los pacientes
 [2023-04-1004:00:04] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1004:51:37] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1004:51:37] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1004:53:00] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1004:53:00] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1004:54:45] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1004:54:45] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1004:59:17] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1004:59:17] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1005:00:07] [ INFO ] [TurnoService:26] Iniciando registro de turno nuevo
+[2023-04-1005:00:07] [ INFO ] [TurnoService:28] Turno agendado
+[2023-04-1005:00:29] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:00:29] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:03:53] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:03:53] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:06:52] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:06:52] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:07:02] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1005:07:02] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1005:07:23] [ INFO ] [TurnoService:26] Iniciando registro de turno nuevo
+[2023-04-1005:07:23] [ INFO ] [TurnoService:28] Turno agendado
+[2023-04-1005:07:25] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:07:25] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:07:25] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:07:36] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:07:36] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:07:36] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:07:41] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1005:07:41] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1005:07:42] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:07:42] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:07:42] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:07:45] [ INFO ] [TurnoService:34] Se eliminó el turno con id: 252
+[2023-04-1005:07:46] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1005:07:46] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1005:07:47] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:07:47] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:08:19] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:08:19] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:08:46] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:08:46] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:20:29] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:20:29] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:20:31] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1005:20:31] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1005:20:43] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "NaN-NaN-NaNT10:30:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text 'NaN-NaN-NaNT10:30:00' could not be parsed at index 0
+[2023-04-1005:21:26] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:21:26] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:21:34] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:21:34] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:21:36] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1005:21:36] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1005:21:49] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "NaN-NaN-NaNT12:30:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text 'NaN-NaN-NaNT12:30:00' could not be parsed at index 0
+[2023-04-1005:26:00] [ INFO ] [PacienteService:26] Iniciando registro de Paciente
+[2023-04-1005:26:00] [ INFO ] [PacienteService:28] Paciente guardado id: null
+[2023-04-1005:26:03] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1005:26:03] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1005:26:21] [ INFO ] [PacienteService:38] Modificando paciente id: 852
+[2023-04-1005:26:21] [ INFO ] [PacienteService:45] Paciente modificado
+[2023-04-1005:26:23] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1005:26:23] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1005:26:28] [ INFO ] [PacienteService:34] Se eliminó el paciente con id: 852
+[2023-04-1005:26:34] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1005:26:34] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1005:26:38] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:26:38] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:26:41] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1005:26:41] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1005:26:43] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:26:43] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:26:47] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1005:26:47] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1005:26:54] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "NaN-NaN-NaNT08:30:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text 'NaN-NaN-NaNT08:30:00' could not be parsed at index 0
+[2023-04-1005:26:54] [ ERROR] [GlobalExceptionHandler:14] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "NaN-NaN-NaNT08:30:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text 'NaN-NaN-NaNT08:30:00' could not be parsed at index 0
+[2023-04-1005:29:20] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:29:20] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:29:24] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1005:29:24] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1005:29:32] [ INFO ] [TurnoService:38] Modificando turno id: null
+[2023-04-1005:29:32] [ ERROR] [GlobalExceptionHandler:14] The given id must not be null
+[2023-04-1005:30:02] [ INFO ] [PacienteService:61] Buscando todos los pacientes
+[2023-04-1005:30:02] [ INFO ] [PacienteService:67] Se encontraron todos los Pacientes
+[2023-04-1005:32:05] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:32:05] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:32:09] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1005:32:09] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1005:32:16] [ INFO ] [TurnoService:38] Modificando turno id: 302
+[2023-04-1005:32:16] [ INFO ] [TurnoService:45] Turno modificado
+[2023-04-1005:32:21] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:32:21] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:32:33] [ INFO ] [TurnoService:61] Buscando todos los turnos
+[2023-04-1005:32:33] [ INFO ] [TurnoService:66] Se encontraron todos los Turnos
+[2023-04-1005:32:36] [ INFO ] [TurnoService:34] Se eliminó el turno con id: 302
+[2023-04-1005:32:38] [ INFO ] [OdontologoService:61] Buscando todos los odontologos
+[2023-04-1005:32:38] [ INFO ] [OdontologoService:68] Se encontraron todos los Odontologos
+[2023-04-1005:32:41] [ INFO ] [TurnoService:61] Buscando todos los turnos
