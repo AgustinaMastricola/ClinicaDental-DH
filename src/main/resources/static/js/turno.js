@@ -4,6 +4,7 @@ window.addEventListener('load', function () {
     const formPost = document.getElementById('form-post-tur');
     const hora = document.getElementById('hora-tur');
     const fecha = document.getElementById('fecha-tur');
+    const containerOptionPac = document.getElementById('paciente-tur')
     const containerOptionOdont = document.getElementById("odontologo-tur");
     const mensajeExitoso = document.getElementById('submitSuccessMessage-tur');
     const mensajeError = document.getElementById('submitErrorMessage-tur');
@@ -13,6 +14,7 @@ window.addEventListener('load', function () {
     const formPut = document.getElementById('form-put-tur');
     const horaPut = document.getElementById('hora-tur-put');
     const fechaPut = document.getElementById('fecha-tur-put');
+    const containerOptionPacPut = document.getElementById('paciente-tur-put')
     const containerOptionOdontPut = document.getElementById("odontologo-tur-put");
     const mensajeExitosoPut = document.getElementById('submitSuccessMessage-tur-put');
     const mensajeErrorPut = document.getElementById('submitErrorMessage-tur-put');
@@ -21,6 +23,7 @@ window.addEventListener('load', function () {
     const url = 'http://localhost:8080/turnos';
     const urlTurAll = 'http://localhost:8080/turnos/all';
     const urlOdon = 'http://localhost:8080/odontologos';
+    const urlPac = 'http://localhost:8080/pacientes';
 
     /* Botones */
     const botonNuevo = document.getElementById('nuevo-tur');
@@ -66,9 +69,15 @@ window.addEventListener('load', function () {
         let odonSelected = selected.value
         return parseInt(odonSelected);
     }
+    /* Capturo el ID del paciente elegido */
+    function obtenerIdPacSelected(selected){
+        let pacSelected = selected.value
+        return parseInt(pacSelected);
+    }
     /* Capturar los datos del form */
     function capturarDatos(){
         const odontologoId = obtenerIdOdonSelected(containerOptionOdont);
+        const pacienteId = obtenerIdPacSelected(containerOptionPac);
         let horaSelect = obtenerHora(hora);
         let horaParse = horaSelect.padStart(5,0)
         let fechaNum = fecha.valueAsNumber;
@@ -78,7 +87,7 @@ window.addEventListener('load', function () {
         let dia = (fechaParse.getDate() +1).toString().padStart(2,'0');
         const formData = {
             fecha_hora: `${year}-${mes}-${dia}T${horaParse}:00`,
-            paciente: {id: 802},
+            paciente: {id: pacienteId},
             odontologo: {id: odontologoId}
         }
         return formData;
@@ -87,6 +96,7 @@ window.addEventListener('load', function () {
     botonNuevo.addEventListener('click', function(event) {
         containerListTur.classList.add('d-none');
         generarOptionsOdon(containerOptionOdont)
+        generarOptionsPac(containerOptionPac)
         containerFormPost.classList.remove('d-none');
     })
     /* ----------- BOTON 'VER TODOS' ---------------*/
@@ -113,6 +123,22 @@ window.addEventListener('load', function () {
             `
         });
     }
+    /* Renderizado de Nombres de Pacientes en el Formulario */
+    async function generarOptionsPac(contenedor){
+        const response = await fetch(`${urlPac}/all`);
+        const datos = await response.json();
+        renderizarListaPac(datos, contenedor);
+    }
+    function renderizarListaPac(lista, contenedor){
+        contenedor.innerHTML = `
+            <option selected>Paciente</option>
+        `;
+        lista.forEach(pac => {
+            contenedor.innerHTML += `
+                <option value="${pac.id}">${pac.nombre} ${pac.apellido}</option>
+            `
+        });
+    }
 
     /*----------- LISTAR TODOS ---------------------*/
     async function listarTodos(){
@@ -129,11 +155,11 @@ window.addEventListener('load', function () {
                 <tr id="item-tur-${turno.id}">
                     <td class="invisible">${turno.id}</td>
                     <td>${fechaHora}</td>
-                    <td>PACIENTE</td>
+                    <td>${turno.paciente.nombre} ${turno.paciente.apellido}</td>
                     <td>${turno.odontologo.nombre} ${turno.odontologo.apellido}</td>
                     <td>
                         <button class="btn btn-primary m-2 boton-modificar-tur" id="${turno.id}">Modificar</button>
-                        <button class="btn btn-primary m-2 boton-eliminar-tur" id="${turno.id}">Eliminar</button>
+                        <button class="btn btn-primary m-2 boton-eliminar-tur" id="${turno.id}">Cancelar</button>
                     </td>
                 </tr>
             `
@@ -167,6 +193,7 @@ window.addEventListener('load', function () {
             boton.addEventListener('click', (event) => {
                 containerListTur.classList.add('d-none');
                 containerFormPut.classList.remove('d-none');
+                generarOptionsPac(containerOptionPacPut)
                 generarOptionsOdon(containerOptionOdontPut)
                 const id = event.target.id
                 putTurno(id)
@@ -178,6 +205,7 @@ window.addEventListener('load', function () {
         formPut.addEventListener('submit', function(event){
             event.preventDefault()
             const odontologoId = obtenerIdOdonSelected(containerOptionOdontPut);
+            const pacienteId = obtenerIdOdonSelected(containerOptionPacPut);
             let horaSelect = obtenerHora(horaPut);
             let horaParse = horaSelect.padStart(5,0)
             let fechaNum = fechaPut.valueAsNumber;
@@ -188,7 +216,7 @@ window.addEventListener('load', function () {
             const formData = {
                 id: id,
                 fecha_hora: `${year}-${mes}-${dia}T${horaParse}:00`,
-                paciente: {id: 802},
+                paciente: {id: pacienteId},
                 odontologo: {id: odontologoId}
             }
             const settings = {
